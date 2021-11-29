@@ -1,0 +1,292 @@
+/***** BASE STYLES *****/
+body {
+    background-color: #0b121f;
+    background-size: cover;
+    background-position: center;
+    width: 1200px;
+    margin: auto;
+
+}
+
+h2 {
+    width: 1200px;
+    height: 40px;
+    font-family: "Source Code Pro";
+    font-size: 25px;
+    color:#fa0075;
+    text-align:center;
+    margin-bottom: 25px;
+    padding-bottom:30px;
+  }
+  
+
+  p {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color:#ffffff;
+  }
+
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+    width: 500px;
+    height: 200px;
+    float: left;
+    margin: 30px;
+    padding: 20px;
+}
+
+.third-width {
+    width: 400px;
+    float:left;
+    display: inline-block;
+    justify-content: space-between;    
+}
+/*****HEADER*****/
+
+header {
+    height: 170px;   
+}
+
+h1 {
+    font-family: 'Source Code Pro';
+    color:#fa0075;
+    font-style: normal;
+    font-size: 24px;
+}
+
+h1 span {
+    color: #ffffff
+}
+
+
+
+nav li { 
+    float: right;
+    display: inline;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+nav ul{
+    display: inline-block;
+}
+nav ul li a {
+    font-family: 'Montserrat';
+    color:#fa0075;
+    font-size: 18px;
+    padding-left: 70px;
+    text-transform: lowercase;
+    
+}
+
+a:hover, a.on {
+    color:#515c62;
+}
+
+/*****BANNER*****/
+
+.banner {
+    width: 1200px;
+    height:600px;
+    position: relative;
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+}
+
+
+.hello h1 {
+    font-family: "Source Code Pro";
+    font-size: 65px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    right: 10%;
+    text-align: left;
+    transform: translate(-50%, -50%);
+    color:#fa0075;
+    padding: 75px 75px; 
+}
+
+.stars img {
+    width: 100%;
+    opacity: 25%;
+    border-bottom:1px solid #515c62;
+    border-top:1px solid #515c62;
+}
+
+
+/*****PORTFOLIO*****/
+
+#portfolio {
+    margin-left:auto;
+    margin-right:auto;
+    display: inline;
+}
+
+#portfolio h2 {
+    height: 40px;
+    padding-bottom:0px;
+}
+
+#project-titles h2 {
+    width:400px;
+    height:21px;
+    padding-top:15px;
+    font-family: "Source Code Pro";
+    font-size: 19px;
+    text-align: center;
+    color: #ffffff;
+   
+}
+
+#portfolio p {
+    text-align:center;
+    padding-bottom: 10px;
+    width: 200;
+
+}
+
+#portfolio img {
+        padding-top:10px;
+        padding-left:40px;
+        position:relative;
+        display:inline block;
+}
+
+
+
+
+  /*****ABOUT*****/
+
+  #about {
+    border-top:1px solid #515c62;  
+    height:500px;
+  }
+
+  #about h2 {
+    width: 1200px;
+    height: 40px;
+    font-family: "Source Code Pro";
+    font-size: 25px;
+    position: absolute;
+    color:#fa0075;
+    text-align:center;
+    margin-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom:30px;
+  }
+
+  #about h3{
+    width: 100%;
+    height:20px;
+    padding-left:0px;
+    padding-top:70px;
+    padding-bottom:10px;
+    font-family: "Source Code Pro";
+    font-size: 19px;
+    position: absolute;
+    color: #ffffff;
+    text-align: left;
+    text-transform: uppercase; 
+    
+  }
+
+  #about p {
+    font-family:"Montserrat";
+    font-size: 18px;
+    color:#ffffff;
+    padding-top:130px;
+    height:120px;
+    text-align:left;
+  }
+
+  #about img {
+    padding:30px;
+    clear:both; 
+    position:absolute;
+    margin-left:60px; 
+    display:block;
+}
+
+/*******CONTACT******/
+
+#contact {
+    border-top:1px solid #515c62;  
+    height:200px;
+}
+
+#contact h2 {
+    width: 1200px;
+    height: 100px;
+    font-family: "Source Code Pro";
+    font-size: 25px;
+    position: absolute;
+    color:#fa0075;
+    text-align:center;
+    margin-bottom: 25px;
+    padding-bottom:40px;
+}
+
+#contact h3 {
+    width: 100%;
+    height:20px;
+    padding:10px;
+    font-family: "Source Code Pro";
+    font-size: 19px;
+    position: absolute;
+    color:azure;
+    text-align: justify;
+    text-transform: uppercase; 
+}
+
+#follow {
+    padding-left:200px;
+}
+
+#contact p{
+    font-family:"Montserrat";
+    font-size: 18px;
+    color:#ffffff;
+    padding-left:10px;
+    padding-top:40px;
+    height:120px;
+    text-align:left;
+}
+
+#contact img {
+    display:inline-block;
+    padding-top:40px;
+   
+    padding-left:10px;
+    background:#0b121f;
+    background-blend-mode: multiply;
+}
+
+/*****FOOTER*****/
+
+footer {
+    width: 1200px;
+    height:20px;
+    position: absolute;
+    padding-top: 5px;
+    border-top:1px solid #515c62;  
+}
+
+footer p {
+    font-family:"Montserrat";
+    font-size: 12px;
+    color:#fa0075;
+    text-align:center;
+}
+
+
+
+
